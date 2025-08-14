@@ -1,8 +1,8 @@
 ! Title: DoodStream & Related Ad/Malware Blocklist
-! Description: Blocks ads, popups, redirects, and known tracking domains for
-DoodStream-based video sites.
-! Last updated: 2025-08-14
+! Description: Blocks ads, popups, redirects, and known tracking domains for DoodStream-based video sites.
+! Version: 2025-08-14
 ! License: CC BY 4.0
+
 ||dood.watch^$popup
 ||doodstream.com^$popup
 ||dood.to^$popup
@@ -15,6 +15,7 @@ DoodStream-based video sites.
 ||dood.tv^$popup
 ||dood.pro^$popup
 ||dood.io^$popup
+
 ! Common ad networks and malware sources used by these sites
 ||*.doubleclick.net^
 ||*.popads.net^
@@ -29,6 +30,7 @@ DoodStream-based video sites.
 ||*.adnium.com^
 ||*.zergnet.com^
 ||*.mgid.com^
+
 ! Redirect scripts
 ||*.redirectvoluum.com^
 ||*.clkcln.com^
